@@ -18,6 +18,7 @@ public class ConnectRemoteMongo {
 			System.out.println(dbs);
 			
 			DB db = mongo.getDB("paytmexpdb");
+			
 
 			Set<String> collections = db.getCollectionNames();
 			System.out.println(collections); 
